@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import { BannerTypo } from "@/components/CustomTypo";
 import { Box, Container, Grid } from "@mui/material";
 import React from "react";
