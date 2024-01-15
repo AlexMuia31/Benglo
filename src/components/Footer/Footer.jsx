@@ -8,12 +8,12 @@ const Footer = () => {
       <Container maxWidth="xl">
         <Divider sx={{ mb: "4%" }} />
         <Grid container spacing={2}>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={3}>
             <Header>BENGLO</Header>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={3}>
             <Box>
-              <SubHeader>Company</SubHeader>
+              <SubHeader>Head office</SubHeader>
               <BannerTypo
                 sx={{
                   fontSize: { xs: "14px", sm: "18px" },
@@ -21,13 +21,12 @@ const Footer = () => {
                   fontWeight: 400,
                 }}
               >
-                Benglo Consultants And Supplies Limited,
-                <br /> PO Box:21101 <br />
-                90200-Kitui
+                Central trade Centre, <br />
+                kilungya street building 1st floor <br /> p.o Box 21101, Kitui{" "}
               </BannerTypo>
             </Box>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={3}>
             <Box>
               <SubHeader>Contact Us</SubHeader>
               <BannerTypo
@@ -37,8 +36,24 @@ const Footer = () => {
                   fontWeight: 400,
                 }}
               >
-                Tel : +254790891677
-                <br /> Email: benjaminmwangi60@gmail.com <br />
+                Call/ SMS/ WhatsApp +254790891677
+                <br /> Email: beng@lo.co.ke
+              </BannerTypo>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={3}>
+            <Box>
+              <SubHeader>Branches</SubHeader>
+              <BannerTypo
+                sx={{
+                  fontSize: { xs: "14px", sm: "18px" },
+                  color: "#000",
+                  fontWeight: 400,
+                }}
+              >
+                Benglo consultancy office, <br />
+                Zamani business park
+                <br /> Karen
               </BannerTypo>
             </Box>
           </Grid>
