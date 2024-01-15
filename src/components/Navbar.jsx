@@ -6,10 +6,10 @@ import SideDrawer from "./Drawer/SideDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState();
 
   const handleDrawerOpen = () => {
-    setOpen(true);
+    setOpen(!open);
   };
   return (
     <>
@@ -49,7 +49,7 @@ const Navbar = () => {
                 </Link>
               </Box>
               <Box sx={{ display: { md: "none" } }}>
-                <IconButton>
+                <IconButton onClick={handleDrawerOpen}>
                   <MenuIcon />
                 </IconButton>
               </Box>

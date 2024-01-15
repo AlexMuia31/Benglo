@@ -7,7 +7,13 @@ const SideDrawer = ({ setOpen, open }) => {
   };
   return (
     <Box>
-      <Drawer sx={{}} variant="temporary" anchor="top" open={open}>
+      <Drawer
+        sx={{}}
+        variant="temporary"
+        anchor="top"
+        open={open}
+        onClose={handleDrawerClose}
+      >
         test
       </Drawer>
     </Box>
