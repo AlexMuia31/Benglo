@@ -35,7 +35,7 @@ const About = () => {
                   mb: "5%",
                 }}
               >
-                Office solutions powerhouse
+                Supply services
               </BannerTypo>
               <BannerTypo
                 sx={{
@@ -45,11 +45,9 @@ const About = () => {
                   fontWeight: 400,
                 }}
               >
-                Fueling your business efficiency with the right tools and expert
-                guidance. We're not just your paperclip provider. We're your
-                one-stop shop for office supplies, furniture, and technology,
-                backed by expert consultants who optimize your workspace for
-                productivity.
+                We supply goods and services to our esteem customers below one
+                million Kenya shilling and a range of one to ten million Kenya
+                shillings. With all specifications needed by the clients.
               </BannerTypo>
             </Box>
           </Grid>
@@ -71,7 +69,7 @@ const About = () => {
                   mb: "5%",
                 }}
               >
-                Industry-agnostic lifesavers
+                Road and highway construction
               </BannerTypo>
               <BannerTypo
                 sx={{
@@ -81,11 +79,7 @@ const About = () => {
                   fontWeight: 400,
                 }}
               >
-                Whatever you need, whenever you need it, we'll make it happen.
-                From lab equipment to construction materials, we source and
-                deliver the supplies you need to keep your business humming, and
-                our on-call consultants are ready to tackle any logistical
-                challenge.
+                Construction of rural and urban roads. Rehabilitation of roads.
               </BannerTypo>
             </Box>
           </Grid>
@@ -107,7 +101,7 @@ const About = () => {
                   mb: "5%",
                 }}
               >
-                Small business champions
+                Water works
               </BannerTypo>
               <BannerTypo
                 sx={{
@@ -117,10 +111,144 @@ const About = () => {
                   fontWeight: 400,
                 }}
               >
-                Big ambitions deserve big support. We're passionate about
-                empowering startups and growing businesses with customized
-                supply solutions and strategic advice. Let us be your growth
-                partner, from day one to day done.
+                Bulk earthworks ranging from excavation to dams constructions,
+                drilling of boreholes etc. Construction and laying of water
+                distribution networks. Storage reservoirs and pumping stations.
+              </BannerTypo>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box>
+              <Box sx={{ mb: "30px" }}>
+                <img
+                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  alt="banner"
+                  width="100%"
+                  style={{ borderRadius: "10px" }}
+                />
+              </Box>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "18px", sm: "30px" },
+                  color: "#000",
+                  mb: "5%",
+                }}
+              >
+                Precast concrete products
+              </BannerTypo>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "14px", sm: "18px" },
+                  color: "#000",
+                  fontWeight: 400,
+                }}
+              >
+                Spun concrete culverts, concrete paving blocks, road kerbs, road
+                channels, slabs and precast concrete units.
+              </BannerTypo>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box>
+              <Box sx={{ mb: "30px" }}>
+                <img
+                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  alt="banner"
+                  width="100%"
+                  style={{ borderRadius: "10px" }}
+                />
+              </Box>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "18px", sm: "30px" },
+                  color: "#000",
+                  mb: "5%",
+                }}
+              >
+                Slope control
+              </BannerTypo>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "14px", sm: "18px" },
+                  color: "#000",
+                  fontWeight: 400,
+                }}
+              >
+                Stone pitching, Gabions, Geotextile, retaining walls and
+                landscaping.
+              </BannerTypo>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box>
+              <Box sx={{ mb: "30px" }}>
+                <img
+                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  alt="banner"
+                  width="100%"
+                  style={{ borderRadius: "10px" }}
+                />
+              </Box>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "18px", sm: "30px" },
+                  color: "#000",
+                  mb: "5%",
+                }}
+              >
+                Yard construction
+              </BannerTypo>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "14px", sm: "18px" },
+                  color: "#000",
+                  fontWeight: 400,
+                }}
+              >
+                Naturally gravel or gravel crushed stones bases, fiber
+                reinforced concrete, reinforced concrete hand standing areas,
+                paving blocks surfaces (cabros), asphaltic concrete surface.
+              </BannerTypo>
+            </Box>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Box>
+              <Box sx={{ mb: "30px" }}>
+                <img
+                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  alt="banner"
+                  width="100%"
+                  style={{ borderRadius: "10px" }}
+                />
+              </Box>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "18px", sm: "30px" },
+                  color: "#000",
+                  mb: "5%",
+                }}
+              >
+                People empowerment
+              </BannerTypo>
+              <BannerTypo
+                sx={{
+                  textAlign: "center",
+                  fontSize: { xs: "14px", sm: "18px" },
+                  color: "#000",
+                  fontWeight: 400,
+                }}
+              >
+                Benglo promotes the empowerment of communities and is determined
+                to leave a legacy in the areas that it operates. We therefore
+                have a dynamic plan to train and uplift local contractors,
+                suppliers and community members in all our areas of operations.
               </BannerTypo>
             </Box>
           </Grid>

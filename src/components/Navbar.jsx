@@ -40,10 +40,13 @@ const Navbar = () => {
                 <Link href="/about" style={{ textDecoration: "none" }}>
                   <SubHeader>About</SubHeader>
                 </Link>
-                <Link href="/services" style={{ textDecoration: "none" }}>
+                {/* <Link href="/services" style={{ textDecoration: "none" }}>
                   <SubHeader>Services</SubHeader>
-                </Link>
+                </Link> */}
                 <SubHeader>Contact</SubHeader>
+                <Link href="/portfolio" style={{ textDecoration: "none" }}>
+                  <SubHeader>Portfolio</SubHeader>
+                </Link>
               </Box>
               <Box sx={{ display: { md: "none" } }}>
                 <IconButton>
