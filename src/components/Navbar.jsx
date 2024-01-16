@@ -25,9 +25,11 @@ const Navbar = () => {
                 justifyContent: { xs: "space-between", md: "" },
               }}
             >
-              <Box>
-                <Image alt="" src="/logo.jpeg" width={150} height={100} />
-              </Box>
+              <Link href="/">
+                <Box>
+                  <Image alt="" src="/logo.jpeg" width={150} height={100} />
+                </Box>
+              </Link>
 
               <Box
                 sx={{
