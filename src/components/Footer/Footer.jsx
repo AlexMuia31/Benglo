@@ -1,6 +1,7 @@
 import { Box, Container, Divider, Grid } from "@mui/material";
 import React from "react";
 import { BannerTypo, Header, SubHeader } from "../CustomTypo";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,7 +10,9 @@ const Footer = () => {
         <Divider sx={{ mb: "4%" }} />
         <Grid container spacing={2}>
           <Grid item xs={12} md={3}>
-            <Header>BENGLO</Header>
+            <Box>
+              <Image alt="" src="/logo.jpeg" width={150} height={100} />
+            </Box>
           </Grid>
           <Grid item xs={12} md={3}>
             <Box>
