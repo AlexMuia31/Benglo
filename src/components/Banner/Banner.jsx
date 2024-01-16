@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import { Box, Container, Grid, Toolbar } from "@mui/material";
 import React from "react";
 import { BannerTypo } from "../CustomTypo";
 
 const Banner = () => {
   return (
-    <Box sx={{ minHeight: "40vh" }}>
+    <Box sx={{ minHeight: "40vh", pt: { xs: "15%", md: "10px" } }}>
       <Toolbar />
       <Container maxWidth="xl">
         <Grid container spacing={2}>
