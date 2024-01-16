@@ -47,7 +47,7 @@ const Navbar = () => {
                 {/* <Link href="/services" style={{ textDecoration: "none" }}>
                   <SubHeader>Services</SubHeader>
                 </Link> */}
-                <SubHeader>Contact</SubHeader>
+
                 <Link href="/portfolio" style={{ textDecoration: "none" }}>
                   <SubHeader>Portfolio</SubHeader>
                 </Link>
