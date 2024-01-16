@@ -4,6 +4,7 @@ import { Header, SubHeader } from "./CustomTypo";
 import Link from "next/link";
 import SideDrawer from "./Drawer/SideDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
+import Image from "next/image";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState();
@@ -24,9 +25,10 @@ const Navbar = () => {
                 justifyContent: { xs: "space-between", md: "" },
               }}
             >
-              <Header sx={{ fontSize: { md: "48px", xs: "12px", sm: "48px" } }}>
-                Benglo
-              </Header>
+              <Box>
+                <Image alt="" src="/logo.jpeg" width={150} height={100} />
+              </Box>
+
               <Box
                 sx={{
                   display: { xs: "none", md: "flex" },
