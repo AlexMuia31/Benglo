@@ -55,7 +55,7 @@ const About = () => {
             <Box>
               <Box sx={{ mb: "30px" }}>
                 <img
-                  src="https://i.pinimg.com/564x/4c/2e/b6/4c2eb672f5b0290c7eda07688765f8ea.jpg"
+                  src="https://i.pinimg.com/564x/27/cd/47/27cd4701c6ce5f91c671b2fd9878e3e6.jpg"
                   alt="banner"
                   width="100%"
                   style={{ borderRadius: "10px" }}
@@ -87,7 +87,7 @@ const About = () => {
             <Box>
               <Box sx={{ mb: "30px" }}>
                 <img
-                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  src="https://i.pinimg.com/564x/94/26/6e/94266ed178e8022c0d836ac38b03cb1b.jpg"
                   alt="banner"
                   width="100%"
                   style={{ borderRadius: "10px" }}
@@ -121,7 +121,7 @@ const About = () => {
             <Box>
               <Box sx={{ mb: "30px" }}>
                 <img
-                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  src="https://i.pinimg.com/564x/4b/f1/ab/4bf1ab1349b054c2943fa7e10dfbbeb1.jpg"
                   alt="banner"
                   width="100%"
                   style={{ borderRadius: "10px" }}
@@ -154,7 +154,7 @@ const About = () => {
             <Box>
               <Box sx={{ mb: "30px" }}>
                 <img
-                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  src="https://i.pinimg.com/564x/f0/64/ed/f064ede0903ed4cdfd870808cb2c561a.jpg"
                   alt="banner"
                   width="100%"
                   style={{ borderRadius: "10px" }}
@@ -187,7 +187,7 @@ const About = () => {
             <Box>
               <Box sx={{ mb: "30px" }}>
                 <img
-                  src="https://i.pinimg.com/564x/ee/ea/f3/eeeaf3165c140b1489780343f2728978.jpg"
+                  src="https://i.pinimg.com/564x/bc/b4/f3/bcb4f379500525f6fe776e03ee7d091b.jpg"
                   alt="banner"
                   width="100%"
                   style={{ borderRadius: "10px" }}
